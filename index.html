@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="myFirstApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Intro to Angular</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="./js/upcoming_controller.js"></script>
+  <script src="./js/donor_info_controller.js"></script>
+
+</head>
+<body>
+  <div ng-controller="UpcomingController">
+    {{ upcoming }}
+  </div>
+
+  <div ng-controller="GeneralinfoController">
+    {{ info }}
+  </div>
+
+  <div ng-controller="DonorController">
+    {{ donor }}
+  </div>
+</body>
+</html>
