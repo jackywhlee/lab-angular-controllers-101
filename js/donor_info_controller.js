@@ -1,5 +1,5 @@
 app.controller('DonorController', DonorController)
 
 function DonorController($scope) {
-  $scope.donor = "Nobody!";
+  $scope.donor = "Nobody! None! ";
 }
